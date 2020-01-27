@@ -1,0 +1,22 @@
+{
+  "info": {
+    "name": "Album"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "YearRecorded": {
+      "type": "integer"
+    },
+    "Producer": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "albums"
+}
