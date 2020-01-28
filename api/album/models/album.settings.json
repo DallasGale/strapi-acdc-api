@@ -1,4 +1,6 @@
 {
+  "connection": "default",
+  "collectionName": "albums",
   "info": {
     "name": "Album"
   },
@@ -15,8 +17,12 @@
     },
     "Producer": {
       "type": "string"
+    },
+    "IsStudioRecording": {
+      "type": "boolean"
+    },
+    "IsLiveRecording": {
+      "type": "boolean"
     }
-  },
-  "connection": "default",
-  "collectionName": "albums"
+  }
 }
