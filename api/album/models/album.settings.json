@@ -23,6 +23,10 @@
     },
     "IsLiveRecording": {
       "type": "boolean"
+    },
+    "track": {
+      "via": "album",
+      "model": "track"
     }
   }
 }
