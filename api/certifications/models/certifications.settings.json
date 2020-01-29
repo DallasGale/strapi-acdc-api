@@ -20,6 +20,9 @@
     },
     "album": {
       "model": "album"
+    },
+    "Association": {
+      "type": "string"
     }
   }
 }

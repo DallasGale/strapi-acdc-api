@@ -18,6 +18,12 @@
     },
     "VideoUrl": {
       "type": "string"
+    },
+    "SingleRelease": {
+      "type": "boolean"
+    },
+    "Length": {
+      "type": "string"
     }
   }
 }

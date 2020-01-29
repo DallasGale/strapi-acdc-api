@@ -17,6 +17,9 @@
     },
     "Year": {
       "type": "integer"
+    },
+    "album": {
+      "model": "album"
     }
   }
 }
