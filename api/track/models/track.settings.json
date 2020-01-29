@@ -24,6 +24,10 @@
     },
     "Length": {
       "type": "string"
+    },
+    "albums": {
+      "collection": "album",
+      "via": "track"
     }
   }
 }
