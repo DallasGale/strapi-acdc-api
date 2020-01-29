@@ -17,6 +17,9 @@
     },
     "UnitsSold": {
       "type": "integer"
+    },
+    "album": {
+      "model": "album"
     }
   }
 }
