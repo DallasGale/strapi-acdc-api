@@ -24,9 +24,14 @@
     "IsLiveRecording": {
       "type": "boolean"
     },
-    "track": {
-      "via": "album",
-      "model": "track"
+    "tracks": {
+      "collection": "track"
+    },
+    "certifications": {
+      "collection": "certifications"
+    },
+    "peak_chart_positions": {
+      "collection": "peak-chart-position"
     }
   }
 }

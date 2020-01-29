@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "peak_chart_positions",
+  "info": {
+    "name": "Peak Chart Position"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Association": {
+      "type": "string"
+    },
+    "Position": {
+      "type": "integer"
+    },
+    "Year": {
+      "type": "integer"
+    }
+  }
+}

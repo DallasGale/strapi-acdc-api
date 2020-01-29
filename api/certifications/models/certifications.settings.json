@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "certifications",
+  "info": {
+    "name": "Certifications"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Region": {
+      "type": "string"
+    },
+    "Certification": {
+      "type": "string"
+    },
+    "UnitsSold": {
+      "type": "integer"
+    }
+  }
+}

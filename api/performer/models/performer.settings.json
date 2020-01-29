@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "performers",
+  "info": {
+    "name": "Performer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Performed": {
+      "type": "string"
+    }
+  }
+}

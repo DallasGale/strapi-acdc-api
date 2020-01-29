@@ -17,10 +17,6 @@
       "type": "string",
       "required": true,
       "default": "mm:ss"
-    },
-    "album": {
-      "model": "album",
-      "via": "track"
     }
   }
 }

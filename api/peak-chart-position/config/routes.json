@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/peak-chart-positions",
+      "handler": "peak-chart-position.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/peak-chart-positions/count",
+      "handler": "peak-chart-position.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/peak-chart-positions/:id",
+      "handler": "peak-chart-position.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/peak-chart-positions",
+      "handler": "peak-chart-position.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/peak-chart-positions/:id",
+      "handler": "peak-chart-position.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/peak-chart-positions/:id",
+      "handler": "peak-chart-position.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
