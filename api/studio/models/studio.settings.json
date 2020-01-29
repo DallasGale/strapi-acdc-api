@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "studios",
+  "info": {
+    "name": "Studio"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "album": {
+      "via": "studios",
+      "model": "album"
+    }
+  }
+}

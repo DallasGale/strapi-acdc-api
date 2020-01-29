@@ -46,6 +46,13 @@
       "collection": "label",
       "via": "albums",
       "dominant": true
+    },
+    "producer": {
+      "model": "producer"
+    },
+    "studios": {
+      "collection": "studio",
+      "via": "album"
     }
   }
 }
