@@ -28,6 +28,9 @@
     "albums": {
       "collection": "album",
       "via": "track"
+    },
+    "writers": {
+      "collection": "writer"
     }
   }
 }
