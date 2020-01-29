@@ -32,6 +32,18 @@
     },
     "peak_chart_positions": {
       "collection": "peak-chart-position"
+    },
+    "InternationalVersion": {
+      "type": "boolean"
+    },
+    "AustralianVersion": {
+      "type": "boolean"
+    },
+    "Compilation": {
+      "type": "boolean"
+    },
+    "Soundtrack": {
+      "type": "boolean"
     }
   }
 }
