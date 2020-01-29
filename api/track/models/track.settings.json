@@ -13,11 +13,6 @@
       "type": "string",
       "required": true
     },
-    "Length": {
-      "type": "string",
-      "required": true,
-      "default": "mm:ss"
-    },
     "HasFilmClip": {
       "type": "boolean"
     },
