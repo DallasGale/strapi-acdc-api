@@ -42,9 +42,10 @@
     "Released": {
       "type": "date"
     },
-    "track": {
-      "model": "track",
-      "via": "albums"
+    "labels": {
+      "collection": "label",
+      "via": "albums",
+      "dominant": true
     }
   }
 }

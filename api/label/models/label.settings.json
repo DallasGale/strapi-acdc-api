@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "labels",
+  "info": {
+    "name": "Label"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "albums": {
+      "via": "labels",
+      "collection": "album"
+    }
+  }
+}

@@ -25,10 +25,6 @@
     "Length": {
       "type": "string"
     },
-    "albums": {
-      "via": "track",
-      "collection": "album"
-    },
     "writers": {
       "collection": "writer"
     }
