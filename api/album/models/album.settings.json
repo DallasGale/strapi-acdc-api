@@ -12,9 +12,6 @@
     "Title": {
       "type": "string"
     },
-    "YearRecorded": {
-      "type": "integer"
-    },
     "Producer": {
       "type": "string"
     },
@@ -44,6 +41,9 @@
     },
     "Soundtrack": {
       "type": "boolean"
+    },
+    "Released": {
+      "type": "date"
     }
   }
 }
