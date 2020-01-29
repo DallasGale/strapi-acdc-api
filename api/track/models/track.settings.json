@@ -26,8 +26,8 @@
       "type": "string"
     },
     "albums": {
-      "collection": "album",
-      "via": "track"
+      "via": "track",
+      "collection": "album"
     },
     "writers": {
       "collection": "writer"

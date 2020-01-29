@@ -12,9 +12,6 @@
     "Title": {
       "type": "string"
     },
-    "Producer": {
-      "type": "string"
-    },
     "IsStudioRecording": {
       "type": "boolean"
     },
@@ -46,8 +43,8 @@
       "type": "date"
     },
     "track": {
-      "via": "albums",
-      "model": "track"
+      "model": "track",
+      "via": "albums"
     }
   }
 }

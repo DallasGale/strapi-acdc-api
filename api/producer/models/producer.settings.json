@@ -1,0 +1,16 @@
+{
+  "connection": "default",
+  "collectionName": "producers",
+  "info": {
+    "name": "Producer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}
