@@ -1,0 +1,14 @@
+{
+  "connection": "default",
+  "collectionName": "SongWriter",
+  "info": {
+    "name": "Songwriter",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}

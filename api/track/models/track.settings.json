@@ -25,12 +25,13 @@
     "Length": {
       "type": "string"
     },
-    "writers": {
-      "columnName": "WriterName",
-      "collection": "writer"
-    },
     "performers": {
       "collection": "performer"
+    },
+    "Songwriter": {
+      "type": "component",
+      "repeatable": true,
+      "component": "person.song-writer"
     }
   }
 }

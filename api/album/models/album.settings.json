@@ -57,6 +57,9 @@
     "studios": {
       "collection": "studio",
       "via": "album"
+    },
+    "performers": {
+      "collection": "performer"
     }
   }
 }
