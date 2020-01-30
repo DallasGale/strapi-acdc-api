@@ -11,6 +11,10 @@
   "attributes": {
     "Name": {
       "type": "string"
+    },
+    "tracks": {
+      "via": "writers",
+      "collection": "track"
     }
   }
 }
