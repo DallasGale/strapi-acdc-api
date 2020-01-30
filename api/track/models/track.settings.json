@@ -26,8 +26,7 @@
       "type": "string"
     },
     "writers": {
-      "collection": "writer",
-      "via": "track"
+      "collection": "writer"
     }
   }
 }

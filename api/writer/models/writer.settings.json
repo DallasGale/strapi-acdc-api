@@ -11,10 +11,6 @@
   "attributes": {
     "Name": {
       "type": "string"
-    },
-    "track": {
-      "via": "writers",
-      "model": "track"
     }
   }
 }
