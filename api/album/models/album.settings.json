@@ -53,10 +53,6 @@
     "studios": {
       "collection": "studio",
       "via": "album"
-    },
-    "writer": {
-      "via": "albums",
-      "model": "writer"
     }
   }
 }
