@@ -27,8 +27,7 @@
     },
     "writers": {
       "collection": "writer",
-      "via": "tracks",
-      "dominant": true
+      "via": "track"
     }
   }
 }

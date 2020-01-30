@@ -12,9 +12,9 @@
     "Name": {
       "type": "string"
     },
-    "tracks": {
+    "track": {
       "via": "writers",
-      "collection": "track"
+      "model": "track"
     }
   }
 }
