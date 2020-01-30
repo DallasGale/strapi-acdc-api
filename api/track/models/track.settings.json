@@ -26,7 +26,11 @@
       "type": "string"
     },
     "writers": {
+      "columnName": "WriterName",
       "collection": "writer"
+    },
+    "performers": {
+      "collection": "performer"
     }
   }
 }

@@ -13,10 +13,12 @@
       "type": "string"
     },
     "IsStudioRecording": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "IsLiveRecording": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "tracks": {
       "collection": "track"
@@ -28,24 +30,26 @@
       "collection": "peak-chart-position"
     },
     "InternationalVersion": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "AustralianVersion": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "Compilation": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "Soundtrack": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "Released": {
       "type": "date"
     },
     "labels": {
-      "collection": "label",
-      "via": "albums",
-      "dominant": true
+      "collection": "label"
     },
     "producer": {
       "model": "producer"

@@ -11,10 +11,6 @@
   "attributes": {
     "Name": {
       "type": "string"
-    },
-    "albums": {
-      "via": "labels",
-      "collection": "album"
     }
   }
 }
