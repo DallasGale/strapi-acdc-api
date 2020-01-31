@@ -1,0 +1,20 @@
+{
+  "info": {
+    "name": "PeakPosition",
+    "icon": "chart-line"
+  },
+  "options": {},
+  "attributes": {
+    "Association": {
+      "type": "string"
+    },
+    "Position": {
+      "type": "integer"
+    },
+    "Year": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "components_chart_peak_positions"
+}

@@ -23,12 +23,6 @@
     "tracks": {
       "collection": "track"
     },
-    "certifications": {
-      "collection": "certifications"
-    },
-    "peak_chart_positions": {
-      "collection": "peak-chart-position"
-    },
     "InternationalVersion": {
       "type": "boolean",
       "default": false
@@ -60,6 +54,22 @@
     },
     "performers": {
       "collection": "performer"
+    },
+    "Artwork": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "PeakChartPosition": {
+      "type": "component",
+      "repeatable": true,
+      "component": "chart.peak-position"
+    },
+    "Certifications": {
+      "type": "component",
+      "repeatable": true,
+      "component": "certifications.certifications"
     }
   }
 }

@@ -1,13 +1,9 @@
 {
-  "connection": "default",
-  "collectionName": "certifications",
   "info": {
-    "name": "Certifications"
+    "name": "Certifications",
+    "icon": "graduation-cap"
   },
-  "options": {
-    "increments": true,
-    "timestamps": true
-  },
+  "options": {},
   "attributes": {
     "Region": {
       "type": "string"
@@ -18,11 +14,10 @@
     "UnitsSold": {
       "type": "integer"
     },
-    "album": {
-      "model": "album"
-    },
     "Association": {
       "type": "string"
     }
-  }
+  },
+  "connection": "default",
+  "collectionName": "components_certifications_certifications"
 }
