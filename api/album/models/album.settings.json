@@ -9,9 +9,6 @@
     "timestamps": true
   },
   "attributes": {
-    "Title": {
-      "type": "string"
-    },
     "IsStudioRecording": {
       "type": "boolean",
       "default": false
@@ -82,6 +79,9 @@
     },
     "recorded_tracks": {
       "collection": "recorded-track"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
