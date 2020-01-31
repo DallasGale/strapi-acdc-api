@@ -25,6 +25,9 @@
     },
     "FilmClipLink": {
       "type": "string"
+    },
+    "Time": {
+      "type": "string"
     }
   }
 }
