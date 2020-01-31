@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "tracks",
+  "info": {
+    "name": "Track"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "WrittenBy": {
+      "type": "component",
+      "repeatable": true,
+      "component": "person.song-writer"
+    },
+    "Artwork": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "FilmClip": {
+      "type": "string"
+    }
+  }
+}
