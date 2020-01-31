@@ -1,11 +1,13 @@
 {
+  "connection": "default",
+  "collectionName": "components_chart_peak_positions",
   "info": {
     "name": "PeakPosition",
     "icon": "chart-line"
   },
   "options": {},
   "attributes": {
-    "Association": {
+    "Chart": {
       "type": "string"
     },
     "Position": {
@@ -13,8 +15,9 @@
     },
     "Year": {
       "type": "string"
+    },
+    "Region": {
+      "type": "string"
     }
-  },
-  "connection": "default",
-  "collectionName": "components_chart_peak_positions"
+  }
 }
