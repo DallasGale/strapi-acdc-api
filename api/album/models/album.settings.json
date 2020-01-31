@@ -45,8 +45,8 @@
     "labels": {
       "collection": "label"
     },
-    "producer": {
-      "model": "producer"
+    "producers": {
+      "collection": "producer"
     },
     "studios": {
       "collection": "studio",
