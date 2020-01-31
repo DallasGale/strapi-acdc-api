@@ -39,7 +39,7 @@
       "type": "boolean",
       "default": false
     },
-    "Released": {
+    "InternationalRelease": {
       "type": "date"
     },
     "labels": {
@@ -70,6 +70,15 @@
       "type": "component",
       "repeatable": true,
       "component": "certifications.certifications"
+    },
+    "EuropeanRelease": {
+      "type": "date"
+    },
+    "AustralianRelease": {
+      "type": "date"
+    },
+    "WorldwideRelease": {
+      "type": "date"
     }
   }
 }
