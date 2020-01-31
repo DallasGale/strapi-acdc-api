@@ -6,5 +6,9 @@
     "icon": "address-card"
   },
   "options": {},
-  "attributes": {}
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
 }

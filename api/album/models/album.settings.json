@@ -80,9 +80,6 @@
     "Length": {
       "type": "string"
     },
-    "tracks": {
-      "collection": "track"
-    },
     "recorded_tracks": {
       "collection": "recorded-track"
     }
