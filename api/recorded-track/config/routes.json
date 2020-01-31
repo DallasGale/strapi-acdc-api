@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/recorded-tracks",
+      "handler": "recorded-track.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/recorded-tracks/count",
+      "handler": "recorded-track.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/recorded-tracks/:id",
+      "handler": "recorded-track.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/recorded-tracks",
+      "handler": "recorded-track.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/recorded-tracks/:id",
+      "handler": "recorded-track.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/recorded-tracks/:id",
+      "handler": "recorded-track.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

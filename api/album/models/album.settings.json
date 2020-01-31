@@ -82,6 +82,9 @@
     },
     "tracks": {
       "collection": "track"
+    },
+    "recorded_tracks": {
+      "collection": "recorded-track"
     }
   }
 }
