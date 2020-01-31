@@ -20,9 +20,6 @@
       "type": "boolean",
       "default": false
     },
-    "tracks": {
-      "collection": "track"
-    },
     "InternationalVersion": {
       "type": "boolean",
       "default": false
@@ -79,6 +76,9 @@
     },
     "WorldwideRelease": {
       "type": "date"
+    },
+    "tracks": {
+      "collection": "track"
     }
   }
 }

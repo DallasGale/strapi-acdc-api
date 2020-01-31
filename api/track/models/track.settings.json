@@ -9,29 +9,18 @@
     "timestamps": true
   },
   "attributes": {
-    "Title": {
+    "Name": {
       "type": "string",
+      "private": false,
       "required": true
     },
-    "HasFilmClip": {
-      "type": "boolean"
-    },
-    "VideoUrl": {
-      "type": "string"
-    },
-    "SingleRelease": {
-      "type": "boolean"
-    },
-    "Length": {
-      "type": "string"
-    },
-    "performers": {
-      "collection": "performer"
-    },
-    "Songwriter": {
+    "WrittenBy": {
       "type": "component",
       "repeatable": true,
       "component": "person.song-writer"
+    },
+    "Length": {
+      "type": "string"
     }
   }
 }
