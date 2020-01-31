@@ -76,9 +76,6 @@
     },
     "WorldwideRelease": {
       "type": "date"
-    },
-    "tracks": {
-      "collection": "track"
     }
   }
 }
